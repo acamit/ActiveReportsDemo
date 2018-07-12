@@ -50,8 +50,8 @@ namespace Reports
                 Header2.Text = "Column Heading Name- Just making it larger than 15 to test the things.";
 
                 ControlSize = objPage.MeasureText(dc.ColumnName);
-                if (ControlSize.Width < 1.5f)
-                    ControlSize.Width = 1.5f;
+
+                ControlSize.Width = 1.5f;
 
                 lblHeader.Width = ControlSize.Width;
                 Header2.Width = ControlSize.Width;
